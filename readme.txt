@@ -1,10 +1,6 @@
-一、免责申明
-DEMO仅供参考，实际开发中需要结合具体业务场景修改使用。
-
-二、运行环境：
-.net framework 3.5以上；visual studio 2010以上
-
-三、使用说明参考《支付宝demo使用说明》
-
-四、数据模型参考《当面付对外数据模型&调用流程(.net)》
-
+1.marketms.sql还原到mysql
+2.如果要用支付宝支付功能，修改【F2F_PAY】->【app_code】->【Config.cs】文件中的相关配置，具体可参考https://openhome.alipay.com/platform/appDaily.htm?tab=account
+3.【MarketMS】->【UI】->【FrmPayWithAlipay.cs】中修改点击支付宝支付页面跳转地址，端口可能要改下，具体看自己web服务，可右键aspx在浏览器中查看具体地址
+4.【MarketMS】->【BaseClass】->【DBConn.cs】中修改数据库连接
+5.【MarketMS】->【UI】->【UFrmSyt.cs】中第512行代码，修改二维码解析地址
+6.【MarketMS.php】中第56行、第98行修改数据库连接
