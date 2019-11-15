@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketMS", "MarketMS\MarketMS.csproj", "{C6783D7A-D17C-481F-A62A-2A00E5B4447F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "F2F-PAY", "WebSites\F2F-PAY\", "{0839F01B-CAA6-4148-880A-F4111CB1963D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_14689"
+		Debug.AspNetCompiler.PhysicalPath = "WebSites\F2F-PAY\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14689\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_14689"
+		Release.AspNetCompiler.PhysicalPath = "WebSites\F2F-PAY\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14689\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "14689"
+		SlnRelativePath = "WebSites\F2F-PAY\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8907713B-BEEE-4D6C-A474-108355C1A1E7}"
+	ProjectSection(SolutionItems) = preProject
+		MarketMS.php = MarketMS.php
+		marketms.sql = marketms.sql
+		使用说明.txt = 使用说明.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6783D7A-D17C-481F-A62A-2A00E5B4447F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6783D7A-D17C-481F-A62A-2A00E5B4447F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6783D7A-D17C-481F-A62A-2A00E5B4447F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6783D7A-D17C-481F-A62A-2A00E5B4447F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0839F01B-CAA6-4148-880A-F4111CB1963D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0839F01B-CAA6-4148-880A-F4111CB1963D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0839F01B-CAA6-4148-880A-F4111CB1963D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0839F01B-CAA6-4148-880A-F4111CB1963D}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9D49FB7-1050-477A-B4D4-D2A6EAA32BBF}
+	EndGlobalSection
+EndGlobal
